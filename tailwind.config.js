@@ -5,26 +5,29 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#570df8",
+          primary: "#1A1919",
 
-          secondary: "#f000b8",
+          secondary: "#474747",
 
-          accent: "#1dcdbc",
+          accent: "#757575",
 
-          neutral: "#2b3440",
+          neutral: "#A3A3A3",
 
           "base-100": "#ffffff",
 
-          info: "#3abff8",
+          info: "linear-gradient(#7E90FE, #9873FF)",
 
           success: "#36d399",
 
           warning: "#fbbd23",
 
           error: "#f87272",
+          dark01: "#1A1919",
         },
       },
-    ],
+      
+      
+    ]
   },
   plugins: [require("daisyui")],
 }
