@@ -1,11 +1,14 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import JobList from '../JobList/JobList';
 
 const Home = () => {
     return (
-        <div>
-           <h3>this is home</h3>   
-        </div>
-    );
+      <div>
+        <Banner></Banner>
+        <JobList></JobList>
+      </div>
+    )
 };
 
 export default Home;    

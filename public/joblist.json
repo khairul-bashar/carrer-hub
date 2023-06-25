@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Web Developer",
+    "icon": "https://cdn-icons-png.flaticon.com/128/781/781902.png",
+    "available": "250+ jobs available"
+  },
+  {
+    "id": 2,
+    "name": "Marketing Specialist",
+    "icon": "https://cdn-icons-png.flaticon.com/128/1835/1835948.png",
+    "available": "150+ jobs available"
+  },
+  {
+    "id": 3,
+    "name": "Accountant",
+    "icon": "https://cdn-icons-png.flaticon.com/128/5665/5665189.png",
+    "available": "400+ jobs available"
+  },
+  {
+    "id": 4,
+    "name": "Project Manager",
+    "icon": "https://cdn-icons-png.flaticon.com/128/7526/7526627.png",
+    "available": "300+ jobs available"
+  }
+]

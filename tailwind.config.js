@@ -15,7 +15,7 @@ export default {
 
           "base-100": "#ffffff",
 
-          info: "linear-gradient(#7E90FE, #9873FF)",
+          info: "#8885FE",
 
           success: "#36d399",
 
@@ -25,9 +25,7 @@ export default {
           dark01: "#1A1919",
         },
       },
-      
-      
-    ]
+    ],
   },
   plugins: [require("daisyui")],
 }
