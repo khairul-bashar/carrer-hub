@@ -1,0 +1,66 @@
+[
+  {
+    "jobName": "Software Developer",
+    "companyName": "Google",
+    "location": "New York, USA",
+    "salary": "100k-150k",
+    "jobType": ["Full-time", "Remote"],
+    "logoLink": "https://cdn-icons-png.flaticon.com/128/5968/5968863.png"
+  },
+  {
+    "jobName": "Product Manager",
+    "companyName": "Microsoft",
+    "location": "Tokyo, Japan",
+    "salary": "120k-180k",
+    "jobType": ["Full-time", "Remote"],
+    "logoLink": "https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-logo.png"
+  },
+  {
+    "jobName": "Data Scientist",
+    "companyName": "Amazon",
+    "location": "Bangalore, India",
+    "salary": "90k-120k",
+    "jobType": ["Full-time", "Intern"],
+    "logoLink": "https://www.pngfind.com/pngs/m/56-565024_amazon-logo-png-amazon-png-transparent-png.png"
+  },
+  {
+    "jobName": "Front-end Developer",
+    "companyName": "Apple",
+    "location": "Seoul, South Korea",
+    "salary": "110k-160k",
+    "jobType": ["Full-time", "Remote"],
+    "logoLink": "https://www.pngmart.com/files/10/Apple-Logo-PNG-Photos.png"
+  },
+  {
+    "jobName": "UX Designer",
+    "companyName": "Facebook",
+    "location": "Hong Kong, China",
+    "salary": "80k-110k",
+    "jobType": ["Full-time", "Intern"],
+    "logoLink": "https://png.pngtree.com/png-clipart/20200721/original/pngtree-facebook-name-with-back-shadow-png-image_4861810.jpg"
+  },
+  {
+    "jobName": "Software Engineer",
+    "companyName": "Netflix",
+    "location": "Beijing, China",
+    "salary": "150k-200k",
+    "jobType": ["Full-time", "Remote"],
+    "logoLink": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+  },
+  {
+    "jobName": "Network Engineer",
+    "companyName": "Cisco",
+    "location": "San Francisco, United States",
+    "salary": "100k-130k",
+    "jobType": ["Full-time", "Remote"],
+    "logoLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/2560px-Cisco_logo_blue_2016.svg.png"
+  },
+  {
+    "jobName": "Digital Marketing Specialist",
+    "companyName": "Adobe",
+    "location": "San Jose, United States",
+    "salary": "90k-120k",
+    "jobType": ["Full-time", "Remote"],
+    "logoLink": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.png"
+  }
+]

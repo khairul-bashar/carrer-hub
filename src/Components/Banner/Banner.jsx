@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../../../public/profile.png';
+import Button from '../Button/Button';
 
 const Banner = () => {
     return (
@@ -13,7 +14,7 @@ const Banner = () => {
             need. Its your future. Come find it. Manage all your job application
             from start to finish.
           </p>
-          <button className="btn-primary">Get Started</button>
+          <Button>Get Started</Button>
         </div>
         <img className="h-[450px] w-[500px]" src={image} alt="" />
       </div>

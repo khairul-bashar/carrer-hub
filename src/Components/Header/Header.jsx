@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../Button/Button';
 
 const Header = () => {
     return (
-      <nav className="flex justify-between items-center py-10 min-w-6xl mx-auto px-10 bg-gradient-to-r from-[#9873FF0D] to-[#7E90FE0D]">
+      <nav className="md:flex hidden  justify-between items-center py-10 min-w-6xl mx-auto px-10 bg-gradient-to-r from-[#9873FF0D] to-[#7E90FE0D]">
         <h1 className="text-4xl font-bold text-primary ">DreamJob</h1>
         <ul className="flex gap-3 text-lg text-neutral font-semibold">
           <Link to="/">Home</Link>
@@ -13,7 +14,7 @@ const Header = () => {
           <Link to="/Footer">Footer</Link>
         </ul>
 
-        <button className="btn-primary">Applied Jobs</button>
+        <Button>Start Appling</Button>
       </nav>
     )
 };

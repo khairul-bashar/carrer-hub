@@ -15,14 +15,13 @@ export default {
 
           "base-100": "#ffffff",
 
-          info: "#8885FE",
+          info: "rgba(126, 144, 254, 0.05)",
 
-          success: "#36d399",
+          success: "rgba(152, 115, 255, 0.05)",
 
           warning: "#fbbd23",
 
           error: "#f87272",
-          dark01: "#1A1919",
         },
       },
     ],

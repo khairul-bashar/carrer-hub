@@ -1,12 +1,17 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import Banner from '../Banner/Banner';
-import JobList from '../JobList/JobList';
-
+import Jobs from '../Jobs/Jobs';
 const Home = () => {
+
+  
+  const jobs = useLoaderData();
+  console.log(jobs);
+
     return (
       <div>
         <Banner></Banner>
-        <JobList></JobList>
+        <Jobs></Jobs>
       </div>
     )
 };
