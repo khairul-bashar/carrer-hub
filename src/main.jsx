@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer.jsx'
 import Home from './Components/Home/Home.jsx'
 import JobDetails from './Components/JobDetails/JobDetails.jsx'
 import Main from './Components/LayOut/Main.jsx'
+import PageNotFound from './Components/PageNotFound/PageNotFound.jsx'
 import Statistics from './Components/Statistics/Statistics.jsx'
 import './index.css'
 
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "*",
+    element:<PageNotFound/>
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById("root")).render(
