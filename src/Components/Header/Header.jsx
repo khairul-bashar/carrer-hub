@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 import Button from '../Button/Button';
+
 
 const Header = () => {
     return (
@@ -11,10 +14,10 @@ const Header = () => {
           <Link to="/Statistics">Statistics</Link>
           <Link to="/AppliedJobs">Applied Jobs</Link>
           <Link to="/Blog">Blog</Link>
-          <Link to="/Footer">Footer</Link>
         </ul>
 
         <Button>Start Appling</Button>
+        <ToastContainer></ToastContainer>
       </nav>
     )
 };

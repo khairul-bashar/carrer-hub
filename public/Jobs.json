@@ -1,66 +1,146 @@
 [
   {
+    "id": 1,
     "jobName": "Software Developer",
     "companyName": "Google",
     "location": "New York, USA",
     "salary": "100k-150k",
     "jobType": ["Full-time", "Remote"],
-    "logoLink": "https://cdn-icons-png.flaticon.com/128/5968/5968863.png"
+    "logoLink": "https://cdn-icons-png.flaticon.com/128/5968/5968863.png",
+    "jobDescription": "As a Software Developer at Google, you will be responsible for designing, developing, and maintaining high-quality software solutions. You will collaborate with cross-functional teams to create innovative products and improve existing systems.",
+    "jobResponsibilities": "Write clean, efficient, and maintainable code. Participate in the entire software development life cycle, from concept to deployment. Collaborate with product managers and designers to understand user requirements. Conduct code reviews and provide constructive feedback. Troubleshoot and debug software issues.",
+    "educationalRequirements": "Bachelor's degree in Computer Science, Software Engineering, or a related field.",
+    "experience": "2+ years of experience in software development, proficiency in programming languages such as Java, Python, or C++.",
+    "contact": {
+      "email": "jobs@google.com",
+      "phone": "+1-XXX-XXX-XXXX",
+      "address": "789 Google Street, New York, USA"
+    }
   },
   {
+    "id": 2,
     "jobName": "Product Manager",
     "companyName": "Microsoft",
     "location": "Tokyo, Japan",
     "salary": "120k-180k",
     "jobType": ["Full-time", "Remote"],
-    "logoLink": "https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-logo.png"
+    "logoLink": "https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-logo.png",
+    "jobDescription": "As a Product Manager at Microsoft, you will be responsible for driving product strategy, defining features, and delivering high-quality products. You will work closely with cross-functional teams to understand customer needs and guide the product development process.",
+    "jobResponsibilities": "Conduct market research and competitive analysis. Define product vision, strategy, and roadmap. Collaborate with engineering, design, and marketing teams. Gather and prioritize product requirements. Monitor product performance and make data-driven decisions.",
+    "educationalRequirements": "Bachelor's degree in Business, Marketing, Computer Science, or related fields.",
+    "experience": "3+ years of product management experience, preferably in the technology industry.",
+    "contact": {
+      "email": "jobs@microsoft.com",
+      "phone": "+1-XXX-XXX-XXXX",
+      "address": "789 Microsoft Street, Tokyo, Japan"
+    }
   },
   {
+    "id": 3,
     "jobName": "Data Scientist",
     "companyName": "Amazon",
     "location": "Bangalore, India",
     "salary": "90k-120k",
     "jobType": ["Full-time", "Intern"],
-    "logoLink": "https://www.pngfind.com/pngs/m/56-565024_amazon-logo-png-amazon-png-transparent-png.png"
+    "logoLink": "https://www.pngfind.com/pngs/m/56-565024_amazon-logo-png-amazon-png-transparent-png.png",
+    "jobDescription": "As a Data Scientist at Amazon, you will be responsible for analyzing large datasets, building predictive models, and providing valuable insights to support business decisions. You will work on complex problems and collaborate with diverse teams to drive data-driven solutions.",
+    "jobResponsibilities": "Collect and preprocess large datasets. Build and deploy predictive models. Conduct statistical analysis and data mining. Create data visualizations and reports. Collaborate with teams to identify data-driven opportunities.",
+    "educationalRequirements": "Master's or Ph.D. in Computer Science, Statistics, Mathematics, or related fields.",
+    "experience": "1+ years of experience in data science or a related field, proficiency in programming and data analysis tools.",
+    "contact": {
+      "email": "jobs@amazon.com",
+      "phone": "+1-XXX-XXX-XXXX",
+      "address": "789 Amazon Street, Bangalore, India"
+    }
   },
   {
+    "id": 4,
     "jobName": "Front-end Developer",
     "companyName": "Apple",
     "location": "Seoul, South Korea",
     "salary": "110k-160k",
     "jobType": ["Full-time", "Remote"],
-    "logoLink": "https://www.pngmart.com/files/10/Apple-Logo-PNG-Photos.png"
+    "logoLink": "https://www.pngmart.com/files/10/Apple-Logo-PNG-Photos.png",
+    "jobDescription": "As a Front-end Developer at Apple, you will be responsible for implementing user interfaces and ensuring an exceptional user experience. You will collaborate with designers and back-end developers to create visually appealing and responsive web applications.",
+    "jobResponsibilities": "Translate design wireframes into responsive web pages. Develop reusable and efficient code. Optimize web applications for maximum speed and scalability. Collaborate with back-end developers to integrate user-facing elements. Conduct cross-browser compatibility testing.",
+    "educationalRequirements": "Bachelor's degree in Computer Science, Web Development, or a related field.",
+    "experience": "2+ years of experience in front-end development, proficiency in HTML, CSS, JavaScript, and front-end frameworks.",
+    "contact": {
+      "email": "jobs@apple.com",
+      "phone": "+1-XXX-XXX-XXXX",
+      "address": "789 Apple Street, Seoul, South Korea"
+    }
   },
   {
+    "id": 5,
     "jobName": "UX Designer",
     "companyName": "Facebook",
     "location": "Hong Kong, China",
     "salary": "80k-110k",
     "jobType": ["Full-time", "Intern"],
-    "logoLink": "https://png.pngtree.com/png-clipart/20200721/original/pngtree-facebook-name-with-back-shadow-png-image_4861810.jpg"
+    "logoLink": "https://png.pngtree.com/png-clipart/20200721/original/pngtree-facebook-name-with-back-shadow-png-image_4861810.jpg",
+    "jobDescription": "As a UX Designer at Facebook, you will be responsible for creating intuitive and engaging user experiences. You will conduct user research, create wireframes, and collaborate with cross-functional teams to design and improve products.",
+    "jobResponsibilities": "Conduct user research and gather user requirements. Create wireframes and prototypes. Design user interfaces and interactions. Collaborate with product managers and engineers to implement designs. Conduct usability testing and iterate based on feedback.",
+    "educationalRequirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction, or related fields.",
+    "experience": "2+ years of experience in UX design, proficiency in design tools and prototyping software.",
+    "contact": {
+      "email": "jobs@facebook.com",
+      "phone": "+1-XXX-XXX-XXXX",
+      "address": "789 Facebook Street, Hong Kong, China"
+    }
   },
   {
+    "id": 6,
     "jobName": "Software Engineer",
     "companyName": "Netflix",
     "location": "Beijing, China",
     "salary": "150k-200k",
     "jobType": ["Full-time", "Remote"],
-    "logoLink": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+    "logoLink": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
+    "jobDescription": "As a Software Engineer at Netflix, you will be responsible for developing and maintaining high-performance and scalable software systems. You will work on complex distributed systems that power the Netflix streaming platform.",
+    "jobResponsibilities": "Design, develop, and test software systems. Collaborate with cross-functional teams to define system requirements. Optimize and improve existing systems for performance and scalability. Troubleshoot and debug production issues. Stay updated with emerging technologies and industry best practices.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or related fields.",
+    "experience": "3+ years of experience in software engineering, proficiency in programming languages such as Java, Scala, or Python.",
+    "contact": {
+      "email": "jobs@netflix.com",
+      "phone": "+1-XXX-XXX-XXXX",
+      "address": "789 Netflix Street, Beijing, China"
+    }
   },
   {
-    "jobName": "Network Engineer",
-    "companyName": "Cisco",
-    "location": "San Francisco, United States",
-    "salary": "100k-130k",
+    "id": 7,
+    "jobName": "Marketing Manager",
+    "companyName": "Tesla",
+    "location": "Los Angeles, USA",
+    "salary": "100k-140k",
     "jobType": ["Full-time", "Remote"],
-    "logoLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/2560px-Cisco_logo_blue_2016.svg.png"
+    "logoLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1280px-Tesla_Motors.svg.png",
+    "jobDescription": "As a Marketing Manager at Tesla, you will be responsible for developing and executing marketing strategies to promote Tesla's products and brand. You will work closely with cross-functional teams to drive customer acquisition and engagement.",
+    "jobResponsibilities": "Develop marketing campaigns and strategies. Conduct market research and competitor analysis. Plan and execute digital marketing initiatives. Collaborate with creative teams to create compelling content. Analyze marketing data and optimize campaigns based on insights.",
+    "educationalRequirements": "Bachelor's or Master's degree in Marketing, Business Administration, or related fields.",
+    "experience": "4+ years of experience in marketing, preferably in the automotive or technology industry.",
+    "contact": {
+      "email": "jobs@tesla.com",
+      "phone": "+1-XXX-XXX-XXXX",
+      "address": "789 Tesla Street, Los Angeles, USA"
+    }
   },
   {
-    "jobName": "Digital Marketing Specialist",
-    "companyName": "Adobe",
-    "location": "San Jose, United States",
-    "salary": "90k-120k",
-    "jobType": ["Full-time", "Remote"],
-    "logoLink": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.png"
+    "id": 8,
+    "jobName": "Data Engineer",
+    "companyName": "IBM",
+    "location": "London, UK",
+    "salary": "90k-130k",
+    "jobType": ["Full-time", "Intern"],
+    "logoLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTrZDVN_15KHkdFAomE1d4RCNnpnDRWPIWtvxo2Bk0yg&s",
+    "jobDescription": "As a Data Engineer at IBM, you will be responsible for designing, building, and maintaining data pipelines and infrastructure. You will work with large-scale datasets and collaborate with data scientists and analysts to drive data-driven insights.",
+    "jobResponsibilities": "Design and implement data ingestion and processing systems. Develop and maintain data pipelines and ETL workflows. Optimize data storage and retrieval for performance and scalability. Collaborate with data scientists and analysts to support their data needs. Ensure data quality and integrity.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Data Engineering, or related fields.",
+    "experience": "2+ years of experience in data engineering or a related field, proficiency in programming languages and data processing frameworks.",
+    "contact": {
+      "email": "jobs@ibm.com",
+      "phone": "+1-XXX-XXX-XXXX",
+      "address": "789 IBM Street, London, UK"
+    }
   }
 ]

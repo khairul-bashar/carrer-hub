@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Home from './Components/Home/Home.jsx'
-import Main from './Components/LayOut/Main.jsx'
-import './index.css'
-import Footer from './Components/Footer/Footer.jsx'
-import Statistics from './Components/Statistics/Statistics.jsx'
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs.jsx'
 import Blog from './Components/Blog/Blog.jsx'
+import Footer from './Components/Footer/Footer.jsx'
+import Home from './Components/Home/Home.jsx'
+import JobDetails from './Components/JobDetails/JobDetails.jsx'
+import Main from './Components/LayOut/Main.jsx'
+import Statistics from './Components/Statistics/Statistics.jsx'
+import './index.css'
 
 const router = createBrowserRouter([
   {
@@ -17,19 +18,25 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () =>  fetch('jobs.json')
+        loader: () => fetch("/Jobs.json"),
       },
       {
         path: "/Statistics",
-        element: <Statistics></Statistics>
-      },
-      {
-        path: "/AppliedJobs",
-        element: <AppliedJobs></AppliedJobs>
+        element: <Statistics></Statistics>,
       },
       {
         path: "/Blog",
-        element: <Blog></Blog>
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/jobDetails/:id",
+        element: <JobDetails></JobDetails>,
+        loader: () => fetch("/Jobs.json"),
+      },
+      {
+        path: "/appliedJobs",
+        element: <AppliedJobs />,
+        loader: () => fetch("/Jobs.json"),
       },
       {
         path: "footer",
