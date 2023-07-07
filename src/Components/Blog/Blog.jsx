@@ -1,11 +1,12 @@
 /** @format */
 
 import React from "react"
+import Common from "../Common/Common"
 
 const Blog = () => {
   return (
     <>
-     
+      <Common>Blog</Common>
       <div className="md:w-4/5 mx-auto">
         <div className="border rounded-md shadow-xl bg-slate-300 mt-4 p-6">
           <h2 className="text-2xl text-center font-bold">
